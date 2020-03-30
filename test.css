@@ -1,0 +1,106 @@
+body{
+    background-image: url(background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+}
+#left_screen {
+    width: 900px ;
+    padding: 20px;
+    height: 100%;
+    padding-top: 60px;
+}
+
+#right_screen {
+    width: 380px ;
+    height: 100%;    
+}
+
+.div_drawcanvas {
+    padding-left: 30px;
+}
+
+/* /////////////////////////// SCORE
+                                    ///////////////////////////*/
+
+.div_score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 60px;
+    
+}
+
+
+#score {
+    background-color: white;
+    filter: opacity(0.5 );
+    width: 350px;
+    height: 200px;
+    color: rgba(1, 17, 17, 1 );
+    font-size: 140px;
+    font-family: 'Antic Slab', serif;
+    border-radius: 20px; 
+  
+}
+
+/* /////////////////////////// RESTART BUTTON
+                                    /           //////////////////////////*/
+.div_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+   
+}
+
+.restartButton {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+.restartButton:hover {
+    background-color: aliceblue;
+    color: darkcyan;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(38, 9, 107, 0.74);
+
+}
+
+/* /////////////////////////// MUSIC BUTTON
+                                            ///////////////////////////*/
+
+.musicButton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.musicButton:hover {
+    background-color: aliceblue;
+    color: darkcyan;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
