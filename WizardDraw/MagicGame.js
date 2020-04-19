@@ -20,8 +20,6 @@ let EnemyList = [
    
 ]
 
-
-
 // Get the canvas element
 const gameCanvas = document.getElementById("gameCanvas");
 const drawCanvas = document.getElementById("drawCanvas");
